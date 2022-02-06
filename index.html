@@ -8,18 +8,15 @@
  <meta name="x-apple-disable-message-reformatting">
  <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no">
  <title>Raif email</title>
-            <style>
-                * {
-                    font-family: sans-serif !important;
-                }
-            </style>
+
  <style>
   html {
       margin: 0 !important;
       padding: 0 !important;
   }
-      
+
   * {
+      font-family: sans-serif !important;
       -ms-text-size-adjust: 100%;
       -webkit-text-size-adjust: 100%;
   }
@@ -40,9 +37,72 @@
   img {
       -ms-interpolation-mode:bicubic;
   }
-      
-      
-      
+
+
+  @media only screen and (max-device-width: 599px), only screen and (max-width: 599px) {
+
+   .eh {
+    height:auto !important;
+   }
+
+   .desktop {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    visibility: hidden !important;
+    width: 0 !important;
+   }
+
+   .mobile {
+    display: block !important;
+    width: auto !important;
+    height: auto !important;
+    float: none !important;
+   }
+
+
+   .email-container {
+    width: 100% !important;
+    margin: auto !important;
+   }
+
+
+
+   .stack-column,
+   .stack-column-center {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    direction: ltr !important;
+   }
+
+   .stack-column-center {
+    text-align: center !important;
+   }
+
+   .header-text {
+    display: none !important;
+   }
+   .column-card {
+    padding-top:16px !important; padding-left:0px !important;
+   }
+
+
+   .center-on-narrow {
+    text-align: center !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important;
+   }
+   table.center-on-narrow {
+    display: inline-block !important;
+   }
+
+  }
   
   @media only screen and (max-device-width: 374px) {
       u ~ div .email-container {
@@ -75,74 +135,7 @@
       }
       
   }
-      
- </style>
 
- <style>
-  @media only screen and (max-device-width: 599px), only screen and (max-width: 599px) {
-  
-      .eh {
-          height:auto !important;
-      }
-      
-      .desktop {
-          display: none !important;
-          height: 0 !important;
-          margin: 0 !important;
-          max-height: 0 !important;
-          overflow: hidden !important;
-          padding: 0 !important;
-          visibility: hidden !important;
-          width: 0 !important;
-      }
-      
-      .mobile {
-          display: block !important;
-          width: auto !important;
-          height: auto !important;
-          float: none !important;
-      }
-          
-          
-        .email-container {
-            width: 100% !important;
-            margin: auto !important;
-        }
-       
-      
-          
-        .stack-column,
-        .stack-column-center {
-            display: block !important;
-            width: 100% !important;
-            max-width: 100% !important;
-            direction: ltr !important;
-        }
-          
-        .stack-column-center {
-            text-align: center !important;
-        }
-  
-        .header-text {
-            display: none !important;
-        }
-          .column-card {
-               padding-top:16px !important; padding-left:0px !important;
-            }
-          
-      
-          .center-on-narrow {
-              text-align: center !important;
-              display: block !important;
-              margin-left: auto !important;
-              margin-right: auto !important;
-              float: none !important;
-          }
-          table.center-on-narrow {
-              display: inline-block !important;
-          }
-  
-      }
       
  </style>
 </head>
@@ -177,7 +170,7 @@
                        <table align="left" cellspacing="0" cellpadding="0" border="0">
                         <tr>
                          <td>
-                          <img src="image/logo.png" width="190" alt="" border="0" style="width:100%; height:auto;margin:auto;display:block;">
+                          <img src="image/logo.png" width="190" alt="Лого райффайзен банк" border="0" style="width:100%; height:auto;margin:auto;display:block;">
                          </td>
                         </tr>
                        </table>
@@ -415,7 +408,7 @@
                              <table align="center" cellspacing="0" cellpadding="0" border="0">
                               <tr>
                                <td>
-                                <img src="image/calendar.png" width="48" alt="" border="0" style="height:auto;margin:auto;display:block;">
+                                <img src="image/calendar.png" width="48" alt="Календарь" border="0" style="height:auto;margin:auto;display:block;">
                                </td>
                               </tr>
                              </table>
@@ -454,7 +447,7 @@
                              <table align="center" cellspacing="0" cellpadding="0" border="0">
                               <tr>
                                <td>
-                                <img src="image/card.png" width="48" alt="" border="0" style="height:auto;margin:auto;display:block;">
+                                <img src="image/card.png" width="48" alt="Карта" border="0" style="height:auto;margin:auto;display:block;">
                                </td>
                               </tr>
                              </table>
@@ -493,7 +486,7 @@
                              <table align="center" cellspacing="0" cellpadding="0" border="0">
                               <tr>
                                <td>
-                                <img src="image/free.png" width="48" alt="" border="0" style="height:auto;margin:auto;display:block;">
+                                <img src="image/free.png" width="48" alt="Бесплатно" border="0" style="height:auto;margin:auto;display:block;">
                                </td>
                               </tr>
                              </table>
@@ -596,7 +589,7 @@
                              <table align="right" cellspacing="0" cellpadding="0" border="0">
                               <tr>
                                <td>
-                                <img src="image/hand-card.png" width="32" alt="" border="0" style="max-width:32px; height:auto;margin:auto;display:block;">
+                                <img src="image/hand-card.png" width="32" alt="Оплата картой" border="0" style="max-width:32px; height:auto;margin:auto;display:block;">
                                </td>
                               </tr>
                              </table>
@@ -644,7 +637,7 @@
                              <table align="right" cellspacing="0" cellpadding="0" border="0">
                               <tr>
                                <td>
-                                <img src="image/book.png" width="26" alt="" border="0" style="max-width:26px; height:auto;margin:auto;display:block;">
+                                <img src="image/book.png" width="26" alt="Книга" border="0" style="max-width:26px; height:auto;margin:auto;display:block;">
                                </td>
                               </tr>
                              </table>
@@ -711,7 +704,7 @@
                              <table align="right" cellspacing="0" cellpadding="0" border="0">
                               <tr>
                                <td>
-                                <img src="./image/percent.png" width="29" alt="" border="0" style="max-width:29px; height:auto;margin:auto;display:block;">
+                                <img src="./image/percent.png" width="29" alt="Процент" border="0" style="max-width:29px; height:auto;margin:auto;display:block;">
                                </td>
                               </tr>
                              </table>
@@ -759,7 +752,7 @@
                              <table align="right" cellspacing="0" cellpadding="0" border="0">
                               <tr>
                                <td>
-                                <img src="image/check.png" width="32" alt="" border="0" style="max-width:32px; height:auto;margin:auto;display:block;">
+                                <img src="image/check.png" width="32" alt="Проверка" border="0" style="max-width:32px; height:auto;margin:auto;display:block;">
                                </td>
                               </tr>
                              </table>
